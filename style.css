@@ -9,6 +9,38 @@ body {
     background-color: rgb(36, 36, 36);
 }
 
+nav{
+    background-color: #93f055;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    height: 3.5rem;
+}
+
+.all{
+    width: 18rem;
+    border-radius: 1.5rem;
+}
+
+nav h1{
+    font-size: 2rem;
+    margin-left: 10rem;
+    cursor: pointer;
+}
+
+nav h1:hover{
+    color: rgb(0, 13, 56);
+    background-color: rgb(255, 102, 0);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
 .card{
     width: 90%;
     max-width: 470px;
@@ -108,3 +140,4 @@ body {
     margin-top: 1rem;
     display: none;
 }
+

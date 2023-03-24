@@ -53,3 +53,15 @@ async function checkwhether(city) {
 searchBtn.addEventListener("click", () => {
     checkwhether(searchBox.value);
 })
+
+// dark mode
+
+const input = document.querySelector("input");
+const body = document.querySelector("body");
+
+const toggleThemeMode = () => {
+    body.classList.toggle("dark");
+    document.querySelector("h1").style.color = "#ffffff";
+};
+
+input.onchange = toggleThemeMode;
